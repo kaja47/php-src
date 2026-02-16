@@ -3001,7 +3001,6 @@ ZEND_API void zend_convert_internal_arg_info(zend_arg_info *new_arg_info, const 
 	zend_convert_internal_arg_info_type(&new_arg_info->type, persistent);
 }
 
-/* registers all functions in *library_functions in the function hash */
 ZEND_API zend_result zend_register_functions(zend_class_entry *scope, const zend_function_entry *functions, HashTable *function_table, int type) /* {{{ */
 {
 	const zend_function_entry *ptr = functions;
